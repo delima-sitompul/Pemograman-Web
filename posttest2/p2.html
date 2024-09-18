@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="p2kawan.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <img src="logo-resto.jpeg" alt="Logo Restoran" class="logo">
+            <h1>Thank You for Your Purchase!</h1>
+            <p>Your order is being processed and will be shipped soon.</p>
+        </div>
+
+        <!-- Billing Information -->
+        <div class="billing-info">
+            <h2>Billing Address</h2>
+            <div class="info-grid">
+                <p><b>Nama:</b> Justin Bieber</p>
+                <p><b>Alamat:</b> Jl. Merdeka No 15, Kota Balikpapan</p>
+                <p><b>Phone:</b> +62 812-3456-7890</p>
+                <p><b>Email:</b> justin.bieber@email.com</p>
+                <p><b>Tanggal Pesanan: <tr>
+                    <input type="date">
+                </tr></b></p>
+            </div>
+        </div>
+
+        <!-- Border Divider -->
+        <div class="border-divider"></div>
+
+        <!-- Order Summary -->
+        <div class="order-summary">
+            <h2>Ringkasan Pembelian</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama Menu</th>
+                        <th>Jumlah</th>
+                        <th>Harga Satuan</th>
+                        <th>Total Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="nasi-goreng.jpeg" alt="Nasi Goreng Spesial" class="product-img"> Nasi Goreng
+                            Spesial</td>
+                        <td>1 Porsi</td>
+                        <td>Rp 25.000</td>
+                        <td>Rp 25.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="es-teh-manis.jpeg" alt="Es Teh Manis" class="product-img"> Es Teh Manis</td>
+                        <td>1 Gelas</td>
+                        <td>Rp 5.000</td>
+                        <td>Rp 5.000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Total Pesanan</th>
+                        <td>Rp 30.000</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3">Pajak</th>
+                        <td>Rp 2.000</td>
+                    </tr>
+                    <tr>
+                        <th colspan="3"><b>Total Tagihan</b></th>
+                        <td><b>Rp 32.000</b></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+        <tr>
+            <!-- Payment Information -->
+            <form action=""> <br>
+                <td colspan="4"><b>Metode Pembayaran</b> : <br> 
+                    <input type="radio" name="metode Pembayaran"> Bank BCA
+                    <input type="radio" name="metode Pembayaran"> Bank BRI
+                    <input type="radio" name="metode Pembayaran"> OVO
+                    <input type="radio" name="metode Pembayaran"> GoPay
+                </td>
+            </form>
+        </tr>
+
+
+        <!-- Button -->
+        <br>
+        <div class="track-order">
+            <button>Track Your Order</button>
+        </div>
+
+
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>Nama: Tua Delima Sitompul</p>
+            <p>NIM: 2309106020</p>
+            <p>Praktikum Web: <span style="text-decoration: underline;">Posttest 2</span></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
